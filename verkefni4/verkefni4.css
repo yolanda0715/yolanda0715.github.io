@@ -1,0 +1,155 @@
+.back{
+    text-align: center;
+    max-width: 60em;
+    margin: 0 auto;
+    
+}
+
+
+body{
+    background: rgb(112, 70, 226);
+    
+    
+}
+
+.haus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Lucida;
+    width: 960px;
+    margin: 0 auto;
+    
+    
+   
+}
+.color{
+    background: rgb(108, 176, 240);
+}
+.color2{
+    color: whitesmoke;
+}
+.color3{
+    font-family: Lucida;
+    color: rgb(57, 20, 158);
+    font-size: 2em;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.texto2{
+    font-family: Lucida;
+    color: rgb(57, 20, 158);
+    font-size: 2em;
+    padding: 10px;
+    max-width: 60em;
+    margin: 0 auto
+}
+   
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.p2{
+    font-size: 20px;
+    text-align: center;
+}
+.haus2{
+    text-align: right;
+}
+haus3{
+    text-align: left;
+}
+
+.colorMain{
+    background: linear-gradient(rgb(97, 243, 158), rgb(23, 140, 207));
+    height: 500px;
+    
+}
+.colormain2{
+    background: linear-gradient(rgb(204, 235, 217), rgb(23, 207, 69));
+    height: 600px;
+}
+
+.links a{
+    color: whitesmoke;
+    
+    
+}
+
+.colormain3{
+    background: linear-gradient(rgb(201, 230, 38), rgb(211, 231, 216));
+    height: 700px;  
+}
+
+h3{
+    padding-top: 10px;
+    margin-top:0px;
+    color: blue;  
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 60em;
+    margin: 0 auto;
+ }
+
+ .text{
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+ }
+.midja{
+    width: 960px;
+    margin: 0 auto;
+}
+.navigation{
+    padding: 40px 0 40px 0;
+}
+.navigation ul {
+    font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .navigation li {
+    display: inline-block;
+  }
+  .navigation a {
+    background: #107ed3;
+    background: linear-gradient( #107ed3,  #107ed3);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+  }
+  .navigation a:hover {
+    background:  #107ed3;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+  }
+  .navigation li:first-child a {
+    border-radius: 4px 0 0 4px;
+  }
+  .navigation li:last-child a {
+    border-right: 0;
+    border-radius: 0 4px 4px 0;
+  }
+
+.pila{
+    height: 70px;
+    width: 70px;
+    background: white;
+    border-radius: 50%;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   font-size: 4em;
+   text-align: center;
+}  
+  
+
+
+
